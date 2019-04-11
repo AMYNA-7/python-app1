@@ -1,5 +1,5 @@
-x=int(input("entrer un nombre"))
-if x%2==0
+x=input("entrer un nombre")
+if int(x)%2==0:
  print ("le nombre est pair")
-else 
+else: 
  print ("nombre impair")
